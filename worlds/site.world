@@ -33,10 +33,29 @@
       </link>
     </model>
 
-    <include>
-      <uri>model://Project_A</uri>
+    <!-- BIM Site embedded directly -->
+    <model name="bim_site">
+      <static>true</static>
       <pose>0 0 0 1.5708 0 1.5708</pose>
-    </include>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>model://project_a_description/meshes/bim_world_1.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://project_a_description/meshes/bim_world_1.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
 
   </world>
 </sdf>
