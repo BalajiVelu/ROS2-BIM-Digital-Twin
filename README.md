@@ -1,11 +1,16 @@
 # BIM-Integrated Autonomous Mobile Robot (AMR) Simulation 🏗️🤖
 
+
 ![Status](https://img.shields.io/badge/Status-In--Progress-orange)
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
 ![Gazebo](https://img.shields.io/badge/Simulator-Gazebo-green)
 
 ## 🚧 Work in Progress
-This project is currently in active development. I am currently transitioning from the **Environment & Kinematics** phase to the **Sensor Integration** phase.
+This project is currently in active development. 
+
+![Simulation Preview](project_a_description/assets/simulation_preview.png)
+
+I am currently transitioning from the **Environment & Kinematics** phase to the **Sensor Integration** phase.
 
 ## 📌 Project Overview
 This repository hosts a ROS2-based Digital Twin simulation designed for the construction industry. The goal is to simulate an Autonomous Mobile Robot (AMR) navigating a high-fidelity **BIM (Building Information Modeling)** environment.
@@ -26,11 +31,16 @@ The project bridges the gap between architectural design and robotics by importi
 
 2. Launch the simulation:
 
-ros2 launch project_a_description gazebo_launch.py
+    ros2 launch project_a_description gazebo_launch.py
 
 📅 Roadmap
+
 [x] Integrate BIM Mesh into Gazebo
+
 [x] Configure Differential Drive Kinematics
+
 [ ] Add Lidar sensor (Phase 3)
+
 [ ] Implement SLAM for mapping the BIM site
+
 [ ] Autonomous Waypoint Navigation
