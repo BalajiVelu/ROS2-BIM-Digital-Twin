@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress
 This project is currently in active development. 
 
-![Simulation Preview](project_a_description/assets/simulation_preview.png)
+![Simulation Preview](./assets/simulation_preview.png)
 
 I am currently transitioning from the **Environment & Kinematics** phase to the **Sensor Integration** phase.
 
