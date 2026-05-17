@@ -31,15 +31,14 @@ def generate_launch_description():
         package='robot_state_publisher', 
         executable='robot_state_publisher',
         output='screen', 
-        parameters=[{'robot_description': robot_desc}]
-    )
+        parameters=[{'robot_description': robot_desc}])
 
     spawn_robot = Node(
         package='gazebo_ros', 
         executable='spawn_entity.py',
         arguments=['-topic', 'robot_description', 
                    '-entity', 'construction_robot', 
-                   '-x', '2.0', '-y', '2.0', '-z', '1.0'],
+                   '-x', '0.0', '-y', '0.0', '-z', '0.1'],
         output='screen'
     )
 
